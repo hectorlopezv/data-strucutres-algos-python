@@ -11,8 +11,7 @@ d =  Node(4)
 e =  Node(5)
 f = Node(6)
 z= Node(7)
-pp = Node(8)
-pz = Node(9)
+
 
 a.left = b
 a.right = c
@@ -20,8 +19,7 @@ b.left = d
 b.right = e
 c.right = f
 c.left = z
-z.left = pp
-pp.left= pz
+
 
 
 def depth_first_values_stack_way(node: Node):
@@ -177,7 +175,7 @@ def tree_is_balanced(node: Node):
 #write a function to create a balance BST from a sorte list/array of key-value pairs
 def create_balanced_bst_from_sorted_array(arr):
     pass
-# res = depth_first_values_way_recursion(a)
+res = depth_first_values_way_recursion(a)
 # res_stack = depth_first_values_stack_way(a)
 #res_queue = breath_first_values_way_queue(a)
 # res_includes = tree_includes_breath_first_values_way(a, 'f')
@@ -186,12 +184,12 @@ def create_balanced_bst_from_sorted_array(arr):
 # res_sum_depth = tree_sum_depth_first_way(a)
 # res_sum_breath = tree_sum_breath_first_way(a)
 # res_min_value = tree_min_value_depth_first_way(a)
-res_max_value = tree_max_value_depth_first_way(a)
-res_max_root_to_leaf_sum = max_root_to_leaf_sum(a)
-res_tree_balanced = tree_is_balanced(a)
-res_create_bst = create_balanced_bst_from_sorted_array()
+# res_max_value = tree_max_value_depth_first_way(a)
+# res_max_root_to_leaf_sum = max_root_to_leaf_sum(a)
+# res_tree_balanced = tree_is_balanced(a)
+# res_create_bst = create_balanced_bst_from_sorted_array()
 #print_subtree(a)#breath_first_values_way_recursion
-# print(res)
+print(res)
 # print(res_stack)
 #print(res_queue)
 # print(res_includes)
@@ -200,6 +198,6 @@ res_create_bst = create_balanced_bst_from_sorted_array()
 # print(res_sum_depth)
 # print(res_sum_breath)
 # print(res_min_value)
-print(res_max_value)
-print(res_max_root_to_leaf_sum)
-print(res_tree_balanced)
+# print(res_max_value)
+# print(res_max_root_to_leaf_sum)
+# print(res_tree_balanced)
